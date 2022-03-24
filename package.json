@@ -4,16 +4,21 @@
   "description": "this is a test directory to learn Npm and Git",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nteasocial/musical-guacamole.git"
   },
-  "author": "",
+  "author": "Shivani Yadav",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nteasocial/musical-guacamole/issues"
   },
-  "homepage": "https://github.com/nteasocial/musical-guacamole#readme"
+  "homepage": "https://github.com/nteasocial/musical-guacamole#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
